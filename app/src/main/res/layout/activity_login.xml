@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_login">
+
+    <TextView
+        android:id="@+id/lbLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="USER LOGIN"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="323dp"
+        android:layout_height="57dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="323dp"
+        android:layout_height="55dp"
+        android:ems="10"
+        android:fontFamily="@font/poppins_medium"
+        android:hint="Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="119dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="LOGIN"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="Remember me"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="130dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/poppins"
+        android:text="Forgot Password?"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="393dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
